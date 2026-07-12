@@ -46,14 +46,14 @@ export default function Certificates() {
 
   return (
     <>
-      <section id="certificates" className="py-32 px-8">
+      <section id="certificates" className="py-20 md:py-32 px-6 md:px-8">
         <div className="max-w-7xl mx-auto">
           <div className="mb-20">
             <h2 className="text-sm font-mono text-blue-500 uppercase tracking-[0.4em] mb-4">
               Credentials
             </h2>
 
-            <h3 className="text-5xl font-bold italic">
+            <h3 className="text-4xl sm:text-5xl font-bold italic">
               CERTIFICATIONS
               <span className="text-blue-500">.</span>
             </h3>

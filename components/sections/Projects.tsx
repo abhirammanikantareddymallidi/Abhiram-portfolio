@@ -61,7 +61,7 @@ export default function Projects() {
   ];
 
   return (
-    <section id="projects" className="py-32 px-8 bg-neutral-950/30">
+    <section id="projects" className="py-20 md:py-32 px-6 md:px-8 bg-neutral-950/30">
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="flex flex-col lg:flex-row justify-between items-end gap-12 mb-20">
@@ -69,7 +69,7 @@ export default function Projects() {
             <h2 className="text-sm font-mono text-blue-500 uppercase tracking-[0.4em] mb-4">
               Portfolio
             </h2>
-            <h3 className="text-6xl font-bold italic uppercase leading-tight">
+            <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold italic uppercase leading-tight">
               SELECTED <br />
               PROJECTS<span className="text-blue-500">.</span>
             </h3>
@@ -82,13 +82,13 @@ export default function Projects() {
         </div>
 
         {/* Projects Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, idx) => (
             <motion.div
               key={idx}
               whileHover={{ y: -10 }}
               transition={{ duration: 0.3 }}
-              className="bg-white/5 border border-white/5 rounded-[2.5rem] p-8 flex flex-col group hover:border-blue-500/30 transition-all duration-500"
+              className="bg-white/5 border border-white/5 rounded-[1.5rem] sm:rounded-[2.5rem] p-6 sm:p-8 flex flex-col group hover:border-blue-500/30 transition-all duration-500"
             >
               {/* Top Section */}
               <div className="flex items-center justify-between mb-6">

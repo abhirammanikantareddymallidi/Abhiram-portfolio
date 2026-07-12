@@ -23,11 +23,11 @@ export default function Skills() {
   ];
 
   return (
-    <section id="skills" className="py-32 px-8">
+    <section id="skills" className="py-20 md:py-32 px-6 md:px-8">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20">
           <h2 className="text-sm font-mono text-blue-500 uppercase tracking-[0.4em] mb-4 text-center">Toolkit</h2>
-          <h3 className="text-6xl font-bold text-center italic uppercase">ENGINEERING STACK<span className="text-blue-500">.</span></h3>
+          <h3 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center italic uppercase">ENGINEERING STACK<span className="text-blue-500">.</span></h3>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">

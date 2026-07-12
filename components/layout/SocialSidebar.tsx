@@ -12,7 +12,7 @@ export default function SocialSidebar() {
   ];
 
   return (
-    <div className="fixed left-8 top-1/2 -translate-y-1/2 z-50 flex flex-col items-center gap-5">
+    <div className="fixed md:left-8 md:top-1/2 md:-translate-y-1/2 bottom-6 left-1/2 -translate-x-1/2 md:translate-x-0 md:-translate-y-1/2 z-50 flex md:flex-col flex-row items-center gap-3 md:gap-5 bg-black/60 md:bg-transparent backdrop-blur-md md:backdrop-blur-none px-6 py-3 md:p-0 rounded-full md:rounded-none border border-white/10 md:border-none shadow-lg md:shadow-none">
       {socials.map((social, idx) => (
         <motion.a
           key={idx}
@@ -28,7 +28,7 @@ export default function SocialSidebar() {
         </motion.a>
       ))}
 
-      <div className="w-[2px] h-24 bg-gradient-to-b from-blue-500 to-transparent mt-2" />
+      <div className="w-[2px] h-24 bg-gradient-to-b from-blue-500 to-transparent mt-2 hidden md:block" />
     </div>
   );
 }

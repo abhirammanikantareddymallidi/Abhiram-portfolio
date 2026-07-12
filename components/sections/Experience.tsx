@@ -20,11 +20,11 @@ export default function Experience() {
   ];
 
   return (
-    <section id="experience" className="py-32 px-8 bg-neutral-950/50">
+    <section id="experience" className="py-20 md:py-32 px-6 md:px-8 bg-neutral-950/50">
       <div className="max-w-7xl mx-auto">
         <div className="mb-20">
           <h2 className="text-sm font-mono text-blue-500 uppercase tracking-[0.4em] mb-4">Journey</h2>
-          <h3 className="text-5xl font-bold italic uppercase">PROFESSIONAL EXPERIENCE<span className="text-blue-500">.</span></h3>
+          <h3 className="text-4xl sm:text-5xl font-bold italic uppercase">PROFESSIONAL EXPERIENCE<span className="text-blue-500">.</span></h3>
         </div>
 
         <div className="grid grid-cols-1 gap-8">
@@ -35,16 +35,16 @@ export default function Experience() {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
               transition={{ delay: idx * 0.1 }}
-              className="group bg-white/5 border border-white/5 rounded-[2rem] p-8 md:p-12 hover:border-blue-500/30 transition-all duration-500"
+              className="group bg-white/5 border border-white/5 rounded-[1.5rem] sm:rounded-[2rem] p-6 sm:p-8 md:p-12 hover:border-blue-500/30 transition-all duration-500"
             >
               <div className="flex flex-col md:flex-row justify-between items-start gap-6 mb-8">
-                <div className="flex gap-6">
-                  <div className="w-16 h-16 rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-500">
-                    <Briefcase className="w-8 h-8" />
+                <div className="flex gap-4 sm:gap-6">
+                  <div className="w-12 h-12 sm:w-16 sm:h-16 rounded-xl sm:rounded-2xl bg-blue-500/10 flex items-center justify-center text-blue-400 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-500 flex-shrink-0">
+                    <Briefcase className="w-6 h-6 sm:w-8 sm:h-8" />
                   </div>
                   <div>
-                    <h4 className="text-2xl font-bold group-hover:text-blue-400 transition-colors uppercase italic">{exp.role}</h4>
-                    <p className="text-blue-500 font-medium text-lg">{exp.company}</p>
+                    <h4 className="text-xl sm:text-2xl font-bold group-hover:text-blue-400 transition-colors uppercase italic">{exp.role}</h4>
+                    <p className="text-blue-500 font-medium text-base sm:text-lg">{exp.company}</p>
                   </div>
                 </div>
 

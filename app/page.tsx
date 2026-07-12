@@ -28,8 +28,8 @@ export default function Home() {
         <Projects />
         <Certificates />
 
-        <footer className="py-20 border-t border-white/5 bg-black">
-          <div className="max-w-7xl mx-auto px-8 flex flex-col md:flex-row justify-between items-center gap-8">
+        <footer className="py-20 border-t border-white/5 bg-black pb-28 md:pb-20">
+          <div className="max-w-7xl mx-auto px-6 md:px-8 flex flex-col md:flex-row justify-between items-center gap-8">
             <div className="flex flex-col gap-2 text-center md:text-left">
               <div className="text-2xl font-bold italic uppercase tracking-tighter">
                 ABHIRAM<span className="text-blue-500">.</span>
@@ -39,7 +39,7 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex gap-12 text-sm font-medium text-slate-400">
+            <div className="flex flex-wrap justify-center gap-6 sm:gap-12 text-sm font-medium text-slate-400">
                <a href="#home" className="hover:text-white transition-colors">Home</a>
                <a href="#about" className="hover:text-white transition-colors">About</a>
                <a href="#skills" className="hover:text-white transition-colors">Skills</a>
@@ -58,7 +58,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="max-w-7xl mx-auto px-8 mt-12 text-center text-slate-600 text-xs uppercase tracking-widest font-mono">
+          <div className="max-w-7xl mx-auto px-6 md:px-8 mt-12 text-center text-slate-600 text-xs uppercase tracking-widest font-mono">
             &copy; 2026 ABHIRAM MANIKANTA REDDY. All Rights Reserved.
           </div>
         </footer>
